@@ -12,34 +12,34 @@ public class miPrograma{
         int exit = 0;
         Scanner in = new Scanner(System.in);
         
-        System.out.println("Bienvenido al sistema:");
         System.out.println("");
-        
+        System.out.println("");
         System.out.println("Ingrese su nombre: ");
         System.out.println("");
 
         String name = in.nextLine();
-        
+
+        System.out.println("");
         System.out.println("Marque 1 si es Hombre, 2. Mujer, 3. Otro: ");
         System.out.println("");
 
         String sexo = in.nextLine();
         switch(sexo){
 
-            case "1" : System.out.println("Bienvenido al Sistema " + name);  break;
-            case "2" : System.out.println("Bienvenida al Sistema " + name);  break;
-            case "3" : System.out.println("BienvenidE al Sistema " + name);  break;
-            default : System.out.println("Que sos entonces...?? " + name);  break;
+            case "1" : System.out.println(""); System.out.println("Bienvenido al Sistema " + name);  break;
+            case "2" : System.out.println(""); System.out.println("Bienvenida al Sistema " + name);  break;
+            case "3" : System.out.println(""); System.out.println("BienvenidE al Sistema " + name);  break;
+            default : System.out.println(""); System.out.println("Que sos entonces...?? " + name);  break;
         }
         
-        System.out.println("");
         System.out.println("Elige una de las opciones del menu:");
         System.out.println("");
 
         System.out.println("1. Signo Zodiacal Segun tu cumpleaños.");
         System.out.println("2. Tu edad si fueras perro.");
         System.out.println("3. Dias Vividos.");
-        System.out.println("4. Numerologia.");
+        System.out.println("4. valorlogia.");
+        System.out.println("");
         
         int iopcion = 0;
 
@@ -50,7 +50,7 @@ public class miPrograma{
         catch(Exception e){
 
             System.out.println("");
-            System.out.println("Haz digitado un numero invalido.");
+            System.out.println("Haz digitado un valor invalido.");
             System.out.println("El sistema se reiniciara autoamricamente");
             System.exit(exit);
         }
@@ -59,6 +59,7 @@ public class miPrograma{
 
             case (1) : {
 
+                System.out.println("");
                 System.out.println("Haz elegido Signo Zodiacal");
                 System.out.println("Por favor ingresa el mes de tu nacimiento:");
                 System.out.println("");
@@ -88,13 +89,13 @@ public class miPrograma{
                 catch(Exception e){
 
                     System.out.println("");
-                    System.out.println("Haz digitado un numero invalido.");
+                    System.out.println("Haz digitado un valor invalido.");
                     System.out.println("El sistema se reiniciara autoamricamente");
                     System.exit(exit);
                 }
 
                 switch(imes){
-                    case 1 :{
+                    case (1) :{
 
                         System.out.println("En que Dia de Enero?");
                         System.out.println("");
@@ -123,7 +124,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -131,7 +132,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -163,7 +164,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -171,7 +172,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -204,7 +205,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -212,7 +213,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -245,7 +246,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -253,7 +254,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -286,7 +287,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -294,7 +295,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -327,7 +328,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -335,7 +336,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -368,7 +369,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -376,7 +377,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -409,7 +410,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -417,7 +418,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -450,7 +451,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -458,7 +459,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -490,7 +491,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -498,7 +499,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -530,7 +531,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -538,7 +539,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -570,7 +571,7 @@ public class miPrograma{
                             }
                             else{
                                 System.out.println("");
-                                System.out.println("Haz digitado un numero invalido.");
+                                System.out.println("Haz digitado un valor invalido.");
                                 System.out.println("El sistema se reiniciara autoamricamente ");
                                 System.exit(exit);
                             }
@@ -578,7 +579,7 @@ public class miPrograma{
                         catch(Exception e){
 
                             System.out.println("");
-                            System.out.println("Haz digitado un numero invalido.");
+                            System.out.println("Haz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         }
@@ -586,13 +587,14 @@ public class miPrograma{
                 }   
 
 
-            }
+            }break;
             case (2) : {
 
                 System.out.println("");
-                System.out.println("Haz ingresado: Tu edad si fueras Perro");
+                System.out.println("Haz ingresado: Tu edad si fueras Perro.");
                 System.out.println("");
                 System.out.println("Por favor digite su edad. (en años)");
+                System.out.println("");
 
                 int iedad = 0;
                 int edadPerro = 0;
@@ -605,7 +607,7 @@ public class miPrograma{
                 catch (Exception e) {
                     
                     System.out.println("");
-                    System.out.println("Haz digitado un numero invalido.");
+                    System.out.println("Haz digitado un valor invalido.");
                     System.out.println("El sistema se reiniciara autoamricamente");
                     System.exit(exit);
                 }
@@ -614,9 +616,10 @@ public class miPrograma{
 
                 System.out.println("");
                 System.out.println("Gracias por sus datos " + name + ".");
-                System.out.println("");
-                System.out.println(name + " Tu edad si fueras un perro seria: " + edadPerro + " Años");
-            }
+                System.out.println(name + " Tu edad si fueras un perro seria: ");
+                System.out.println(edadPerro + "Años.");
+
+            }break;
             case (3) : {
 
                 int anioActual = LocalDate.now().getYear();
@@ -624,54 +627,51 @@ public class miPrograma{
                 int diaActual = LocalDate.now().getDayOfMonth();
                 int diasMesActual = 0;
 
+                int iAnioNacimiento = 0;
+                int iMesNacimiento = 0;
+                int iDiaNacimiento = 0;
+                int diasMesNacimieto = 0;
+
                 switch(mesActual){
 
-                    case 1 : diasMesActual = 0;
-                    case 2 : diasMesActual = 31;
-                    case 3 : diasMesActual = 31 + 28;
-                    case 4 : diasMesActual = 31 + 28 + 31;
-                    case 6 : diasMesActual = 31 + 28 + 31 + 30;
-                    case 7 : diasMesActual = 31 + 28 + 31 + 30 + 31;
-                    case 8 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30;
-                    case 9 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31;
-                    case 10 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30;
-                    case 11 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31;
-                    case 12 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30;
+                    case 1 : diasMesActual = 0; break;
+                    case 2 : diasMesActual = 31; break;
+                    case 3 : diasMesActual = 31 + 28; break;
+                    case 4 : diasMesActual = 31 + 28 + 31; break;
+                    case 6 : diasMesActual = 31 + 28 + 31 + 30; break;
+                    case 7 : diasMesActual = 31 + 28 + 31 + 30 + 31; break;
+                    case 8 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30; break;
+                    case 9 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31; break;
+                    case 10 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30; break;
+                    case 11 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31; break;
+                    case 12 : diasMesActual = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30; break;
                 }
 
-                int diasHastaFechaActual = anioActual * 365 + diasMesActual + diaActual;
-
-                System.out.println(diasHastaFechaActual);
+                int diasHastaFechaActual = ((anioActual * 365) - 365)  + diasMesActual + diaActual;
                 
-                int iedad = 0;
-                int diasEdad = 0;
-                int imes = 0;
-                int diasMes = 0;
-
                 System.out.println("");
-                System.out.println("Haz ingresado: Dias vividos");
+                System.out.println("Haz ingresado: Dias vividos.");
                 System.out.println("");
-                System.out.println(name + " Por favor ingrese el año de su nacimiento");
+                System.out.println(name + " Por favor ingrese el dia de su nacimiento");
+                System.out.println("");
 
                 try {
 
-                    int edad = in.nextInt();
-                    iedad = edad;
+                    int diaNacimiento = in.nextInt();
+                    iDiaNacimiento = diaNacimiento;
                 } 
                 catch (Exception e) {
                     
                     System.out.println("");
-                    System.out.println("Haz digitado un numero invalido.");
+                    System.out.println("Haz digitado un valor invalido.");
                     System.out.println("El sistema se reiniciara autoamricamente");
                     System.exit(exit);
                 }
-
-                diasEdad = iedad * 365;
-
-
-                System.out.println("Por favor ingresa el mes de tu nacimiento:");
+                
                 System.out.println("");
-
+                System.out.println(name + " Por favor ingresa el mes de tu nacimiento:");
+                System.out.println("");
+    
                 System.out.println("1. Enero");
                 System.out.println("2. Febrero");
                 System.out.println("3. Marzo");
@@ -685,22 +685,68 @@ public class miPrograma{
                 System.out.println("11. Noviembre");
                 System.out.println("12. Diciembre");
                 System.out.println("");
-
+    
                 try{
-
+    
                 int mes = in.nextInt();
-                imes = mes;
-
+                iMesNacimiento = mes;
+    
                 }
                 catch(Exception e){
-
+    
                     System.out.println("");
-                    System.out.println("Haz digitado un numero invalido.");
+                    System.out.println("Haz digitado un valor invalido.");
                     System.out.println("El sistema se reiniciara autoamricamente");
                     System.exit(exit);
                 }
 
-            }
+                System.out.println("");
+                System.out.println(name + " Por favor ingresa el año de tu nacimiento:");
+                System.out.println("");
+    
+                try {
+                
+                int anioNacimiento = in.nextInt();
+                iAnioNacimiento = anioNacimiento;
+                }
+                catch (Exception e) {
+                    
+                    System.out.println("");
+                    System.out.println("Haz digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.exit(exit);
+                }    
+
+                switch(iMesNacimiento){
+
+                    case 1 : diasMesNacimieto = 0; break;
+                    case 2 : diasMesNacimieto = 31; break;
+                    case 3 : diasMesNacimieto = 31 + 28; break;
+                    case 4 : diasMesNacimieto = 31 + 28 + 31; break;
+                    case 6 : diasMesNacimieto = 31 + 28 + 31 + 30; break;
+                    case 7 : diasMesNacimieto = 31 + 28 + 31 + 30 + 31; break;
+                    case 8 : diasMesNacimieto = 31 + 28 + 31 + 30 + 31 + 30; break;
+                    case 9 : diasMesNacimieto = 31 + 28 + 31 + 30 + 31 + 30 + 31; break;
+                    case 10 : diasMesNacimieto = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30; break;
+                    case 11 : diasMesNacimieto = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31; break;
+                    case 12 : diasMesNacimieto = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30; break;
+                }
+                
+                int diasHastaFechaNacimieto = ((iAnioNacimiento * 365) - 365)  + diasMesNacimieto + iDiaNacimiento;
+
+                int diasVividosTotales = diasHastaFechaActual - diasHastaFechaNacimieto;
+
+                System.out.println("");
+                System.out.println(name + " Muchas Gracias por tus Datos.");
+                System.out.println("");
+                System.out.println("Hasta la fecha han pasado: " + diasHastaFechaActual + " Dias. Desde el dia 0.");
+                System.out.println("Pasaron " + diasHastaFechaNacimieto + " Dias antes de que tu nacieras.");
+                System.out.println("");
+                System.out.println("Deacuerdo con la informacion brindada la cantidad de dias que haz vivido desde el dia 0 es:");
+                System.out.println("");                
+                System.out.println(diasVividosTotales);
+
+            }break;
         }
 
     
