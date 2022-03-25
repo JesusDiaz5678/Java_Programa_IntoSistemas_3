@@ -747,6 +747,9 @@ public class miPrograma{
                 System.out.println(diasVividosTotales);
 
             }break;
+            case (4) : {
+                
+            }
         }
 
     
