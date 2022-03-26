@@ -49,8 +49,8 @@ public class miPrograma{
         catch(Exception e){
 
             System.out.println("");
-            System.out.println("Haz digitado un valor invalido.");
-            System.out.println("El sistema se reiniciara autoamricamente");
+            System.out.println("Has digitado un valor invalido.");
+            System.out.println("El sistema se reiniciara automaticamente");
             System.exit(exit);
         }
 
@@ -58,10 +58,8 @@ public class miPrograma{
 
             case (1) : {
 
-                System.out.println("");
-                System.out.println("Haz elegido Signo Zodiacal");
-                System.out.println("Por favor ingresa el mes de tu nacimiento:");
-                System.out.println("");
+                System.out.println("\n Haz elegido Signo Zodiacal");
+                System.out.println("Por favor ingresa el mes de tu nacimiento: \n");
 
                 System.out.println("1. Enero");
                 System.out.println("2. Febrero");
@@ -87,9 +85,8 @@ public class miPrograma{
                 }
                 catch(Exception e){
 
-                    System.out.println("");
-                    System.out.println("Haz digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.out.println("\n Has digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara automaticamente");
                     System.exit(exit);
                 }
 
@@ -105,34 +102,27 @@ public class miPrograma{
 
                             if (dia > 0 && dia < 21){
 
-                                System.out.println("");
-                                System.out.println("Tu signo es CAPRICORNIO:");
-                                System.out.println("");
-                                System.out.println("CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zodíaco más constante, sólido y apacible. También se caracteriza por ser prudente y práctico en todos los asuntos que le conciernen. Sus aspectos más negativos tienden hacia el pesimismo, la fijeza y la melancolía."); 
-                                System.out.println("");
-                                System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");  
+                                
+                                System.out.println("\n Tu signo es CAPRICORNIO:");
+                                System.out.println("\n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zodíaco más constante, sólido y apacible. También se caracteriza por ser prudente y práctico en todos los asuntos que le conciernen. Sus aspectos más negativos tienden hacia el pesimismo, la fijeza y la melancolía."); 
+                                System.out.println("\n Gracias por usar nuestro sistema. Feliz Dia.");  
 
                             }else if (dia > 21 && dia < 32){
 
-                                System.out.println("");
-                                System.out.println("Tu signo es ACUARIO:");
-                                System.out.println("");
-                                System.out.println("ACUARIO es un signo fijo y de aire, y sin duda, es el signo con mayor capacidad para la invención de toda la rueda zodiacal. Simpático, original y brillante, Acuario también es un signo muy humanitario, al mismo tiempo que independiente e intelectual."); 
-                                System.out.println("");
-                                System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
+                                System.out.println("\n Tu signo es ACUARIO:");
+                                System.out.println("\n ACUARIO es un signo fijo y de aire, y sin duda, es el signo con mayor capacidad para la invención de toda la rueda zodiacal. Simpático, original y brillante, Acuario también es un signo muy humanitario, al mismo tiempo que independiente e intelectual."); 
+                                System.out.println("\n Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido.");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.println("\n Has digitado un valor invalido.");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -162,17 +152,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -203,17 +191,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -244,17 +230,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -285,17 +269,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -326,17 +308,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -367,17 +347,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -408,17 +386,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -449,17 +425,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -489,17 +463,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -529,17 +501,15 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
@@ -569,22 +539,21 @@ public class miPrograma{
                                 System.out.println("Gracias por usar nuestro sistema. Feliz Dia.");
                             }
                             else{
-                                System.out.println("");
-                                System.out.println("Haz digitado un valor invalido.");
-                                System.out.println("El sistema se reiniciara autoamricamente ");
+                                System.out.println("\n Has digitado un valor invalido");
+                                System.out.println("El sistema se reiniciara automaticamente ");
                                 System.exit(exit);
                             }
                         }                        
                         catch(Exception e){
 
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }break;
                 }   
 
+                /* ----------------------- EDAD PERRO ------------------------------*/
 
             }break;
             case (2) : {
@@ -606,8 +575,8 @@ public class miPrograma{
                 catch (Exception e) {
                     
                     System.out.println("");
-                    System.out.println("Haz digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.out.println("Has digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara automaticamente");
                     System.exit(exit);
                 }
 
@@ -619,6 +588,9 @@ public class miPrograma{
                 System.out.println(edadPerro + "Años.");
 
             }break;
+
+                /* ----------------------- DIAS VIVIDOS ------------------------------*/
+
             case (3) : {
 
                 int anioActual = LocalDate.now().getYear();
@@ -663,8 +635,8 @@ public class miPrograma{
                 catch (Exception e) {
                     
                     System.out.println("");
-                    System.out.println("Haz digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.out.println("Has digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara automaticamente");
                     System.exit(exit);
                 }
                 
@@ -695,8 +667,8 @@ public class miPrograma{
                 catch(Exception e){
     
                     System.out.println("");
-                    System.out.println("Haz digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.out.println("Has digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara automaticamente");
                     System.exit(exit);
                 }
 
@@ -712,8 +684,8 @@ public class miPrograma{
                 catch (Exception e) {
                     
                     System.out.println("");
-                    System.out.println("Haz digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.out.println("Has digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara automaticamente");
                     System.exit(exit);
                 }    
 
@@ -736,14 +708,10 @@ public class miPrograma{
 
                 int diasVividosTotales = diasHastaFechaActual - diasHastaFechaNacimieto;
 
-                System.out.println("");
-                System.out.println(name + " Muchas Gracias por tus Datos.");
-                System.out.println("");
+                System.out.println( "\n" + name + " Muchas Gracias por tus Datos. \n");
                 System.out.println("Hasta la fecha han pasado: " + diasHastaFechaActual + " Dias. Desde el dia 0.");
-                System.out.println("Pasaron " + diasHastaFechaNacimieto + " Dias antes de que tu nacieras.");
-                System.out.println("");
-                System.out.println("Deacuerdo con la informacion brindada la cantidad de dias que haz vivido desde el dia 0 es:");
-                System.out.println("");                
+                System.out.println("Pasaron " + diasHastaFechaNacimieto + " Dias antes de que tu nacieras. \n");
+                System.out.println("Deacuerdo con la informacion brindada la cantidad de dias que haz vivido desde el dia 0 es: \n");               
                 System.out.println(diasVividosTotales);
 
             }break;
@@ -769,8 +737,8 @@ public class miPrograma{
                     }    
                     catch (Exception e) {
 
-                        System.out.println("\nHaz digitado un valor invalido.");
-                        System.out.println("El sistema se reiniciara autoamricamente");
+                        System.out.println("\nHas digitado un valor invalido.");
+                        System.out.println("El sistema se reiniciara automaticamente");
                         System.exit(exit);
                     } 
 
@@ -779,9 +747,9 @@ public class miPrograma{
                 if (idiaNacimietoNumerologia > 0 && idiaNacimietoNumerologia < 32){
 
                     do{
-                        System.out.println("\n   Ingresa tu mes de nacimiento");
+                        System.out.println("\n Ingresa tu mes de nacimiento \n");
 
-                        System.out.println("\n1. Enero");
+                        System.out.println("1. Enero");
                         System.out.println("2. Febrero");
                         System.out.println("3. Marzo");
                         System.out.println("4. Abril");
@@ -802,9 +770,8 @@ public class miPrograma{
                         }
                         catch(Exception e){
                         
-                            System.out.println("");
-                            System.out.println("Haz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.print("\n Has Digitado un valor invalido");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         }
                     }while(!(iMesNacimientoNumerologia > 0 && iMesNacimientoNumerologia < 13));
@@ -821,29 +788,29 @@ public class miPrograma{
                         }
                         catch (Exception e) {
 
-                            System.out.println("\nHaz digitado un valor invalido.");
-                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.out.println("\nHas digitado un valor invalido.");
+                            System.out.println("El sistema se reiniciara automaticamente");
                             System.exit(exit);
                         } 
                     }while(!(ianioNacimientoNumerologia > 0 && ianioNacimientoNumerologia < LocalDate.now().getYear()));
                     
-                    int estadoDiasNacmimiento = idiaNacimietoNumerologia;
+                    int estadoDiasNacimiento = idiaNacimietoNumerologia;
                     int indexDia = 0;
                     
-                    while ((int)estadoDiasNacmimiento != 0 ){
+                    while ((int)estadoDiasNacimiento != 0 ){
 
-                        arrayDigitosDias[indexDia] = (int)estadoDiasNacmimiento % 10;
-                        estadoDiasNacmimiento = (int)estadoDiasNacmimiento / 10;
+                        arrayDigitosDias[indexDia] = (int)estadoDiasNacimiento % 10;
+                        estadoDiasNacimiento = (int)estadoDiasNacimiento / 10;
                         indexDia++;
                     }
 
-                    int estadoMesNacmimiento = iMesNacimientoNumerologia;
+                    int estadoMesNacimiento = iMesNacimientoNumerologia;
                     int indexMes = 0;
                     
-                    while ((int)estadoMesNacmimiento != 0 ){
+                    while ((int)estadoMesNacimiento != 0 ){
 
-                        arrayDigitosMes[indexMes] = (int)estadoMesNacmimiento % 10;
-                        estadoMesNacmimiento = (int)estadoMesNacmimiento / 10;
+                        arrayDigitosMes[indexMes] = (int)estadoMesNacimiento % 10;
+                        estadoMesNacimiento = (int)estadoMesNacimiento / 10;
                         indexMes++;
                     }
 
@@ -860,8 +827,8 @@ public class miPrograma{
 
                 else{
 
-                    System.out.println("\nHaz digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.out.println("\nHas digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara automaticamente");
                     System.exit(exit);
                 }
 
