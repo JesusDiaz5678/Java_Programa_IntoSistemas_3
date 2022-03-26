@@ -872,7 +872,7 @@ public class miPrograma {
                     System.out.println("\n " + name + ", muchas Gracias por tus Datos.");
 
                     System.out.println(
-                            "\n De acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: \t"
+                            "\n De acuerdo con lo proporcionado, tu numero de vida, segun la numerologia es: \t"
                                     + numVida);
 
                     if (numVida == 1) {
@@ -911,9 +911,9 @@ public class miPrograma {
 
                         System.out.println("\n .");
 
-                    }else if(numVida == 10){
+                    } else if (numVida == 10) {
 
-                        System.out.println("\n .");  
+                        System.out.println("\n .");
                     }
 
                 } else {
@@ -921,50 +921,49 @@ public class miPrograma {
                     System.out.println("\n " + name + ", muchas Gracias por tus Datos.");
 
                     System.out.println(
-                            "\n De acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: \t"
+                            "\n De acuerdo con lo proporcionado, tu numero de vida, segun la numerologia es: \t"
                                     + numVidaParcial);
 
-                                    if (numVidaParcial == 1) {
+                    if (numVidaParcial == 1) {
 
-                                        System.out.println("\n .");
-                                        
-                                    } else if (numVidaParcial == 2) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 3) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 4) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 5) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 6) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 7) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 8) {
-                
-                                        System.out.println("\n .");
-                
-                                    } else if (numVidaParcial == 9) {
-                
-                                        System.out.println("\n .");
-                
-                                    }else if(numVidaParcial == 10){
-                
-                                        System.out.println("\n .");  
-                                    }
-                    
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 2) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 3) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 4) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 5) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 6) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 7) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 8) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 9) {
+
+                        System.out.println("\n .");
+
+                    } else if (numVidaParcial == 10) {
+
+                        System.out.println("\n .");
+                    }
 
                 }
 
