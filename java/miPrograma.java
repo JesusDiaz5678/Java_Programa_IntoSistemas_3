@@ -13,14 +13,12 @@ public class miPrograma{
         int exit = 0;
         Scanner in = new Scanner(System.in);
 
-        System.out.println(" \n \n Ingrese su nombre: ");
-        System.out.println("");
+        System.out.println(" \n \n Ingrese su nombre: \n");
+
 
         String name = in.nextLine();
 
-        System.out.println("");
-        System.out.println("Marque 1 si es Hombre, 2. Mujer, 3. Otro: ");
-        System.out.println("");
+        System.out.println("\n Marque el numero correspondiente si es: \n 1. Hombre, \n 2. Mujer \n 3. Otro.\n ");
 
         String sexo = in.nextLine();
         switch(sexo){
@@ -28,7 +26,7 @@ public class miPrograma{
             case "1" : System.out.println(""); System.out.println("Bienvenido al Sistema " + name + ".");  break;
             case "2" : System.out.println(""); System.out.println("Bienvenida al Sistema " + name + ".");  break;
             case "3" : System.out.println(""); System.out.println("BienvenidE al Sistema " + name + ".");  break;
-            default : System.out.println(""); System.out.println("Que sos entonces...?? " + name + ".");  break;
+            default : System.out.println(""); System.out.println("No entiendo el dato ingresado..." + name + ".");  break;
         }
         
         System.out.println("Elige una de las opciones del menu:");
@@ -39,19 +37,24 @@ public class miPrograma{
         System.out.println("3. Dias Vividos.");
         System.out.println("4. Numerologia.");
         System.out.println("");
-        
+
         int iopcion = 0;
 
-        try {
+        try{
             int opcion = in.nextInt();
             iopcion = opcion;
-        }
-        catch(Exception e){
 
-            System.out.println("");
-            System.out.println("Has digitado un valor invalido.");
-            System.out.println("El sistema se reiniciara automaticamente");
-            System.exit(exit);
+            while(opcion <= 0 || opcion > 4){
+
+                System.out.println("Ups, al parecer te has equivocado. Por favor, ingresa nuevamente la opcion:");
+                int newopcion = in.nextInt();
+                opcion = newopcion;
+                iopcion = opcion;
+            }
+
+        }catch(Exception e){
+
+            System.out.println("Al parecer has ingresado un caracter. Reinicia el sistema y vuelve a intentarlo.");
         }
 
         switch (iopcion){
@@ -584,8 +587,8 @@ public class miPrograma{
 
                 System.out.println("");
                 System.out.println("Gracias por sus datos " + name + ".");
-                System.out.println(name + " Tu edad si fueras un perro seria: ");
-                System.out.println(edadPerro + "Años.");
+                System.out.println( name + " Tu edad si fueras un perro seria: ");
+                System.out.println("¯`·.¸¸.·´¯`·.¸¸. "+ edadPerro +" años .¸¸.·`¯´·.¸¸.·`¯");
 
             }break;
 
