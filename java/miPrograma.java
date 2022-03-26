@@ -82,15 +82,22 @@ public class miPrograma{
 
                 try{
 
-                int mes = in.nextInt();
+                    int mes = in.nextInt();
+                    imes = mes;
+
+            while(mes <= 0 || mes > 4){
+
+                System.out.println("Ups, al parecer te has equivocado. Por favor, ingresa nuevamente la opcion:");
+                int newmes = in.nextInt();
+                mes = newmes;
                 imes = mes;
+            }
 
                 }
                 catch(Exception e){
 
-                    System.out.println("\n Has digitado un valor invalido.");
-                    System.out.println("El sistema se reiniciara automaticamente");
-                    System.exit(exit);
+                    System.out.println("Al parecer has ingresado un caracter. Reinicia el sistema y vuelve a intentarlo.");
+                    
                 }
 
                 switch(imes){
