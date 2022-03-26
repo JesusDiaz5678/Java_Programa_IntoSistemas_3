@@ -85,7 +85,7 @@ public class miPrograma{
                     int mes = in.nextInt();
                     imes = mes;
 
-            while(mes <= 0 || mes > 4){
+            while(mes <= 0 || mes > 12){
 
                 System.out.println("Ups, al parecer te has equivocado. Por favor, ingresa nuevamente la opcion:");
                 int newmes = in.nextInt();
@@ -97,7 +97,7 @@ public class miPrograma{
                 catch(Exception e){
 
                     System.out.println("Al parecer has ingresado un caracter. Reinicia el sistema y vuelve a intentarlo.");
-                    
+
                 }
 
                 switch(imes){
