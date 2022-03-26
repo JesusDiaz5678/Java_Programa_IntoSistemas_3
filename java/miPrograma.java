@@ -25,10 +25,10 @@ public class miPrograma{
         String sexo = in.nextLine();
         switch(sexo){
 
-            case "1" : System.out.println(""); System.out.println("Bienvenido al Sistema " + name);  break;
-            case "2" : System.out.println(""); System.out.println("Bienvenida al Sistema " + name);  break;
-            case "3" : System.out.println(""); System.out.println("BienvenidE al Sistema " + name);  break;
-            default : System.out.println(""); System.out.println("Que sos entonces...?? " + name);  break;
+            case "1" : System.out.println(""); System.out.println("Bienvenido al Sistema " + name + ".");  break;
+            case "2" : System.out.println(""); System.out.println("Bienvenida al Sistema " + name + ".");  break;
+            case "3" : System.out.println(""); System.out.println("BienvenidE al Sistema " + name + ".");  break;
+            default : System.out.println(""); System.out.println("Que sos entonces...?? " + name + ".");  break;
         }
         
         System.out.println("Elige una de las opciones del menu:");
@@ -756,19 +756,20 @@ public class miPrograma{
                 int[] arrayDigitosDias = new int[2]; 
                 int[] arrayDigitosMes = new int[2]; 
                 int[] arrayDigitosAnio = new int[4]; 
+                int[] arrayNumParcial = new int [2];
                 
-                System.out.println(" \n Haz ingresado: Numerologia.");
+                System.out.println("\nHaz ingresado: Numerologia.");
                 
                 do {
 
-                    System.out.println(" \n" + name + " Por favor ingrese el dia de su nacimiento \n");
+                    System.out.println("\n" + name + " Por favor ingrese el dia de su nacimiento \n");
                     try {
                         int diaNacimietoNumerologia = in.nextInt();
                         idiaNacimietoNumerologia = diaNacimietoNumerologia;
                     }    
                     catch (Exception e) {
 
-                        System.out.println("\n Haz digitado un valor invalido.");
+                        System.out.println("\nHaz digitado un valor invalido.");
                         System.out.println("El sistema se reiniciara autoamricamente");
                         System.exit(exit);
                     } 
@@ -778,9 +779,9 @@ public class miPrograma{
                 if (idiaNacimietoNumerologia > 0 && idiaNacimietoNumerologia < 32){
 
                     do{
-                        System.out.println("\n Ingresa tu mes de nacimiento");
+                        System.out.println("\n   Ingresa tu mes de nacimiento");
 
-                        System.out.println("1. Enero");
+                        System.out.println("\n1. Enero");
                         System.out.println("2. Febrero");
                         System.out.println("3. Marzo");
                         System.out.println("4. Abril");
@@ -820,7 +821,7 @@ public class miPrograma{
                         }
                         catch (Exception e) {
 
-                            System.out.println("\n Haz digitado un valor invalido.");
+                            System.out.println("\nHaz digitado un valor invalido.");
                             System.out.println("El sistema se reiniciara autoamricamente");
                             System.exit(exit);
                         } 
@@ -835,8 +836,6 @@ public class miPrograma{
                         estadoDiasNacmimiento = (int)estadoDiasNacmimiento / 10;
                         indexDia++;
                     }
-                    System.out.println(arrayDigitosDias[0]);
-                    System.out.println(arrayDigitosDias[1]);
 
                     int estadoMesNacmimiento = iMesNacimientoNumerologia;
                     int indexMes = 0;
@@ -847,8 +846,6 @@ public class miPrograma{
                         estadoMesNacmimiento = (int)estadoMesNacmimiento / 10;
                         indexMes++;
                     }
-                    System.out.println(arrayDigitosMes[0]);
-                    System.out.println(arrayDigitosMes[1]);
 
                     int estadoAnioNacmimiento = ianioNacimientoNumerologia;
                     int indexAnio = 0;
@@ -859,29 +856,54 @@ public class miPrograma{
                         estadoAnioNacmimiento = (int)estadoAnioNacmimiento / 10;
                         indexAnio++;
                     }
-                    System.out.println(arrayDigitosAnio[0]);
-                    System.out.println(arrayDigitosAnio[1]);
-                    System.out.println(arrayDigitosAnio[2]);
-                    System.out.println(arrayDigitosAnio[3]);
                 }
 
                 else{
 
-                    System.out.println("\n Haz digitado un valor invalido.");
+                    System.out.println("\nHaz digitado un valor invalido.");
                     System.out.println("El sistema se reiniciara autoamricamente");
                     System.exit(exit);
                 }
 
-                int numVida = arrayDigitosAnio[0] + arrayDigitosAnio[1] + arrayDigitosAnio[2] + arrayDigitosAnio[3] + arrayDigitosDias[0] + arrayDigitosDias[1] + arrayDigitosMes[0] + arrayDigitosMes[1];
+                int numVidaParcial = arrayDigitosAnio[0] + arrayDigitosAnio[1] + arrayDigitosAnio[2] + arrayDigitosAnio[3] + arrayDigitosDias[0] + arrayDigitosDias[1] + arrayDigitosMes[0] + arrayDigitosMes[1];
 
-                System.out.println("");
-                System.out.println(name + " Muchas Gracias por tus Datos.");
+                if (!(numVidaParcial > 0 && numVidaParcial < 10)){
 
-                System.out.println(" \n De acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: ");
-                System.out.println(numVida);
-                
+                    int estadoNumParcial = numVidaParcial;
+                    int indexNumParcial = 0;
+
+                    System.out.println(estadoNumParcial);
+                    
+                    while ((int)estadoNumParcial != 0 ){
+
+                        arrayNumParcial[indexNumParcial] = (int)estadoNumParcial % 10;
+                        estadoNumParcial = (int)estadoNumParcial / 10;
+                        indexNumParcial++;
+                    }
+
+                    System.out.println(arrayNumParcial[0]);
+                    System.out.println(arrayNumParcial[1]);
+                    System.out.println(estadoNumParcial);
+                    System.out.println(numVidaParcial);
 
 
+                    int numVida = arrayNumParcial[0] + arrayNumParcial[1];
+
+                    System.out.println("");
+                    System.out.println(name + " Muchas Gracias por tus Datos.");
+    
+                    System.out.println("\nDe acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: ");
+                    System.out.println(numVida);
+
+                }
+                else{
+
+                    System.out.println("");
+                    System.out.println(name + " Muchas Gracias por tus Datos.");
+    
+                    System.out.println("\nDe acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: ");
+                    System.out.println(numVidaParcial);
+                }
             }
         }
 
