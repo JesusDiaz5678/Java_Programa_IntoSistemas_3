@@ -1,4 +1,5 @@
 import java.io.ObjectInputFilter.Status;
+import java.sql.Array;
 import java.sql.Date;
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -11,10 +12,8 @@ public class miPrograma{
         
         int exit = 0;
         Scanner in = new Scanner(System.in);
-        
-        System.out.println("");
-        System.out.println("");
-        System.out.println("Ingrese su nombre: ");
+
+        System.out.println(" \n \n Ingrese su nombre: ");
         System.out.println("");
 
         String name = in.nextLine();
@@ -38,12 +37,12 @@ public class miPrograma{
         System.out.println("1. Signo Zodiacal Segun tu cumpleaños.");
         System.out.println("2. Tu edad si fueras perro.");
         System.out.println("3. Dias Vividos.");
-        System.out.println("4. valorlogia.");
+        System.out.println("4. Numerologia.");
         System.out.println("");
         
         int iopcion = 0;
 
-        try{
+        try {
             int opcion = in.nextInt();
             iopcion = opcion;
         }
@@ -625,6 +624,7 @@ public class miPrograma{
                 int anioActual = LocalDate.now().getYear();
                 int mesActual = LocalDate.now().getMonthValue();
                 int diaActual = LocalDate.now().getDayOfMonth();
+                
                 int diasMesActual = 0;
 
                 int iAnioNacimiento = 0;
@@ -749,6 +749,102 @@ public class miPrograma{
             }break;
             case (4) : {
                 
+                int ianioNacimientoNumerologia = 0;
+                int iMesNacimientoNumerologia = 0;
+                int idiaNacimietoNumerologia = 0;
+                int digito1Dia = 0;
+                int digito2Dia = 0;
+                int digito1Mes = 0;
+                int digito2Mes = 0;
+                int digito1Anio = 0;
+                int digito2Anio = 0;
+                int digito3Anio = 0;
+                int digito4Anio = 0;
+                int[] arrayDigitosDias = new int[2]; 
+                int[] arrayDigitosmes = new int[2]; 
+                int[] arrayDigitosAnio = new int[4]; 
+                
+                System.out.println(" \n Haz ingresado: Numerologia.");
+                
+                do {
+
+                    System.out.println(" \n" + name + " Por favor ingrese el dia de su nacimiento \n");
+                    try {
+                        int diaNacimietoNumerologia = in.nextInt();
+                        idiaNacimietoNumerologia = diaNacimietoNumerologia;
+                    }    
+                    catch (Exception e) {
+
+                        System.out.println("\n Haz digitado un valor invalido.");
+                        System.out.println("El sistema se reiniciara autoamricamente");
+                        System.exit(exit);
+                    } 
+
+                }while(!(idiaNacimietoNumerologia > 0 && idiaNacimietoNumerologia < 32));
+
+                if (idiaNacimietoNumerologia > 0 && idiaNacimietoNumerologia < 32){
+
+                    do{
+                        System.out.println("\n Ingresa tu mes de nacimiento");
+
+                        System.out.println("1. Enero");
+                        System.out.println("2. Febrero");
+                        System.out.println("3. Marzo");
+                        System.out.println("4. Abril");
+                        System.out.println("5. Mayo");
+                        System.out.println("6. Junio");
+                        System.out.println("7. Julio");
+                        System.out.println("8. Agosto");
+                        System.out.println("9. Septiembre");
+                        System.out.println("10. Octubre");
+                        System.out.println("11. Noviembre");
+                        System.out.println("12. Diciembre \n");
+
+                        try{
+                        
+                            int mes = in.nextInt();
+                            iMesNacimientoNumerologia = mes;
+
+                        }
+                        catch(Exception e){
+                        
+                            System.out.println("");
+                            System.out.println("Haz digitado un valor invalido.");
+                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.exit(exit);
+                        }
+                    }while(!(iMesNacimientoNumerologia > 0 && iMesNacimientoNumerologia < 13));
+
+                    do{
+                        System.out.println("");
+                        System.out.println(name + " Por favor ingresa el año de tu nacimiento:");
+                        System.out.println("");
+                        
+                        try {
+                        
+                        int anioNacimiento = in.nextInt();
+                        ianioNacimientoNumerologia = anioNacimiento;
+                        }
+                        catch (Exception e) {
+
+                            System.out.println("\n Haz digitado un valor invalido.");
+                            System.out.println("El sistema se reiniciara autoamricamente");
+                            System.exit(exit);
+                        } 
+                    }while(!(ianioNacimientoNumerologia > 0 && ianioNacimientoNumerologia < LocalDate.now().getYear()));
+                    
+                    while (!(idiaNacimietoNumerologia / 10 == 0)){
+                        
+                    }
+
+                }
+                else{
+
+                    System.out.println("\n Haz digitado un valor invalido.");
+                    System.out.println("El sistema se reiniciara autoamricamente");
+                    System.exit(exit);
+                }
+
             }
         }
 
