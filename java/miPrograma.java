@@ -752,14 +752,7 @@ public class miPrograma{
                 int ianioNacimientoNumerologia = 0;
                 int iMesNacimientoNumerologia = 0;
                 int idiaNacimietoNumerologia = 0;
-                int digito1Dia = 0;
-                int digito2Dia = 0;
-                int digito1Mes = 0;
-                int digito2Mes = 0;
-                int digito1Anio = 0;
-                int digito2Anio = 0;
-                int digito3Anio = 0;
-                int digito4Anio = 0;
+
                 int[] arrayDigitosDias = new int[2]; 
                 int[] arrayDigitosMes = new int[2]; 
                 int[] arrayDigitosAnio = new int[4]; 
@@ -878,6 +871,16 @@ public class miPrograma{
                     System.out.println("El sistema se reiniciara autoamricamente");
                     System.exit(exit);
                 }
+
+                int numVida = arrayDigitosAnio[0] + arrayDigitosAnio[1] + arrayDigitosAnio[2] + arrayDigitosAnio[3] + arrayDigitosDias[0] + arrayDigitosDias[1] + arrayDigitosMes[0] + arrayDigitosMes[1];
+
+                System.out.println("");
+                System.out.println(name + " Muchas Gracias por tus Datos.");
+
+                System.out.println(" \n De acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: ");
+                System.out.println(numVida);
+                
+
 
             }
         }
