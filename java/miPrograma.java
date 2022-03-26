@@ -574,9 +574,9 @@ public class miPrograma{
                 edadPerro = iedad * 7;
 
                 System.out.println("");
-                System.out.println("Gracias por sus datos " + name + ".");
-                System.out.println( name + " Tu edad si fueras un perro seria: ");
-                System.out.println("¯`·.¸¸.·´¯`·.¸¸. "+ edadPerro +" años .¸¸.·`¯´·.¸¸.·`¯");
+                System.out.println("Gracias por sus datos " + name + ". \n");
+                System.out.println( name + ", tu edad si fueras un perro serian: ");
+                System.out.println(" \n \t \t \t \t \t  ¯`·.¸¸.·´¯`·.¸¸. "+ edadPerro +" años .¸¸.·`¯´·.¸¸.·`¯");
 
             }break;
 
@@ -699,11 +699,10 @@ public class miPrograma{
 
                 int diasVividosTotales = diasHastaFechaActual - diasHastaFechaNacimieto;
 
-                System.out.println( "\n" + name + " Muchas Gracias por tus Datos. \n");
-                System.out.println("Hasta la fecha han pasado: " + diasHastaFechaActual + " Dias. Desde el dia 0.");
-                System.out.println("Pasaron " + diasHastaFechaNacimieto + " Dias antes de que tu nacieras. \n");
-                System.out.println("Deacuerdo con la informacion brindada la cantidad de dias que haz vivido desde el dia 0 es: \n");               
-                System.out.println(diasVividosTotales);
+                System.out.println( "\n Muchas Gracias por tus Datos " + name + ".  \n");
+                System.out.println("Hasta la fecha han pasado: " + diasHastaFechaActual + " dias desde el dia 0, hace " + anioActual + " años.");
+                System.out.println("Antes de que nacieras, habian pasado " + diasHastaFechaNacimieto + " dias. \n");
+                System.out.println("Por consiguiente, despues de esta pletora de informacion, la cantidad de dias que haz vivido desde tu nacimiento son: \t " + diasVividosTotales + " dias.");             
 
             }break;
             case (4) : {
