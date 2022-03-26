@@ -761,7 +761,7 @@ public class miPrograma{
                 int digito3Anio = 0;
                 int digito4Anio = 0;
                 int[] arrayDigitosDias = new int[2]; 
-                int[] arrayDigitosmes = new int[2]; 
+                int[] arrayDigitosMes = new int[2]; 
                 int[] arrayDigitosAnio = new int[4]; 
                 
                 System.out.println(" \n Haz ingresado: Numerologia.");
@@ -833,11 +833,45 @@ public class miPrograma{
                         } 
                     }while(!(ianioNacimientoNumerologia > 0 && ianioNacimientoNumerologia < LocalDate.now().getYear()));
                     
-                    while (!(idiaNacimietoNumerologia / 10 == 0)){
-                        
-                    }
+                    int estadoDiasNacmimiento = idiaNacimietoNumerologia;
+                    int indexDia = 0;
+                    
+                    while ((int)estadoDiasNacmimiento != 0 ){
 
+                        arrayDigitosDias[indexDia] = (int)estadoDiasNacmimiento % 10;
+                        estadoDiasNacmimiento = (int)estadoDiasNacmimiento / 10;
+                        indexDia++;
+                    }
+                    System.out.println(arrayDigitosDias[0]);
+                    System.out.println(arrayDigitosDias[1]);
+
+                    int estadoMesNacmimiento = iMesNacimientoNumerologia;
+                    int indexMes = 0;
+                    
+                    while ((int)estadoMesNacmimiento != 0 ){
+
+                        arrayDigitosMes[indexMes] = (int)estadoMesNacmimiento % 10;
+                        estadoMesNacmimiento = (int)estadoMesNacmimiento / 10;
+                        indexMes++;
+                    }
+                    System.out.println(arrayDigitosMes[0]);
+                    System.out.println(arrayDigitosMes[1]);
+
+                    int estadoAnioNacmimiento = ianioNacimientoNumerologia;
+                    int indexAnio = 0;
+                    
+                    while ((int)estadoAnioNacmimiento != 0 ){
+
+                        arrayDigitosAnio[indexAnio] = (int)estadoAnioNacmimiento % 10;
+                        estadoAnioNacmimiento = (int)estadoAnioNacmimiento / 10;
+                        indexAnio++;
+                    }
+                    System.out.println(arrayDigitosAnio[0]);
+                    System.out.println(arrayDigitosAnio[1]);
+                    System.out.println(arrayDigitosAnio[2]);
+                    System.out.println(arrayDigitosAnio[3]);
                 }
+
                 else{
 
                     System.out.println("\n Haz digitado un valor invalido.");
