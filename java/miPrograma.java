@@ -846,20 +846,18 @@ public class miPrograma{
 
                     int numVida = arrayNumParcial[0] + arrayNumParcial[1];
 
-                    System.out.println("");
-                    System.out.println(name + " Muchas Gracias por tus Datos.");
+                    
+                    System.out.println("\n " + name + ", muchas Gracias por tus Datos.");
     
-                    System.out.println("\nDe acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: ");
-                    System.out.println(numVida);
+                    System.out.println("\n De acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: \t" + numVida);
 
                 }
                 else{
 
-                    System.out.println("");
-                    System.out.println(name + " Muchas Gracias por tus Datos.");
+                    
+                    System.out.println("\n " + name + ", muchas Gracias por tus Datos.");
     
-                    System.out.println("\nDe acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: ");
-                    System.out.println(numVidaParcial);
+                    System.out.println("\n De acuerdo con los datos Proporcionados, tu numero de vida, segun la numerologia es: \t" + numVidaParcial);
                 }
             }
         }
