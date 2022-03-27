@@ -10,5 +10,6 @@ En este Repo vas a encontrar un Programa desarrollado en java para CONSOLA que t
 
 Espero te guste. Si quieres aconsegarme algun cambio o quieres aportar nuevas funciones no dudes en hacer Pull Request.
 
-By: Juan Andrés Porras V.
-
+By: 
+Juan Andrés Porras V
+Andres Benjumea Reinoso
