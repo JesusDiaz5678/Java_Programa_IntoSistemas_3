@@ -12,17 +12,21 @@ public class miPrograma {
     // ------------------------------------------funciones-----------------------------------------
 
     static void Numerologia(int vida) {
+
         if (vida == 1) {
 
-            System.out.println("\n .");
+            System.out.println(
+                    "\n Regido por el Sol, este número tiene que ver con la conciencia. Es un número masculino. Su grafía un palito hacia arriba es como una antena que capta y baja la información. Está vinculado a la creatividad y refiere, además, a los inicios, al punto de partida. Se lo suele vincular con aquel quien tiene la idea o dice qué hacer (la palabra). Si está mal aspectado, puede abusar de su autoridad.");
 
         } else if (vida == 2) {
 
-            System.out.println("\n .");
+            System.out.println(
+                    "\n Regido por la Luna, este número está relacionado con la nutrición, la empatía, la compasión y el servicio. Es un número femenino. \t Algunos numerólogos sostienen que los dos se caracterizan por su sensibilidad y que, en su afán de ayudar al otro, se dejan de lado a ellos mismos. Algunos dos pueden presentar dificultades para decir que no y para poner límites.");
 
         } else if (vida == 3) {
 
-            System.out.println("\n as.");
+            System.out.println(
+                    "\n Bajo la regencia de Júpiter, el tres representa el juego. Es arquetipo del niño y tiene que ver con abundancia y con la gestación creativa: tiene habilidad para comunicar, pero también puede ser cantante o pintor. Tiene mucha influencia en la parte mental y en la social. Si está mal vibrado, puede ser disperso.");
 
         } else if (vida == 4) {
 
