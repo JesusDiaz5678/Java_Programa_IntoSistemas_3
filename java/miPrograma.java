@@ -8,6 +8,52 @@ import java.util.concurrent.ExecutionException;
 import javax.print.attribute.standard.DateTimeAtCompleted;
 
 public class miPrograma {
+
+    // ------------------------------------------funciones-----------------------------------------
+
+    static void Numerologia(int vida) {
+        if (vida == 1) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 2) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 3) {
+
+            System.out.println("\n as.");
+
+        } else if (vida == 4) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 5) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 6) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 7) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 8) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 9) {
+
+            System.out.println("\n .");
+
+        } else if (vida == 10) {
+
+            System.out.println("\n .");
+        }
+    }
+
     public static void main(String[] args) {
 
         int exit = 0;
@@ -875,46 +921,7 @@ public class miPrograma {
                             "\n De acuerdo con lo proporcionado, tu numero de vida, segun la numerologia es: \t"
                                     + numVida);
 
-                    if (numVida == 1) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 2) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 3) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 4) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 5) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 6) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 7) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 8) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 9) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVida == 10) {
-
-                        System.out.println("\n .");
-                    }
+                    Numerologia(numVida);
 
                 } else {
 
@@ -924,46 +931,7 @@ public class miPrograma {
                             "\n De acuerdo con lo proporcionado, tu numero de vida, segun la numerologia es: \t"
                                     + numVidaParcial);
 
-                    if (numVidaParcial == 1) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 2) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 3) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 4) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 5) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 6) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 7) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 8) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 9) {
-
-                        System.out.println("\n .");
-
-                    } else if (numVidaParcial == 10) {
-
-                        System.out.println("\n .");
-                    }
+                    Numerologia(numVidaParcial);
 
                 }
 
