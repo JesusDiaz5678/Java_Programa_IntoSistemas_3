@@ -50,7 +50,7 @@ public class miPrograma {
 
         } else if (vida == 9) {
 
-            System.out.println("\n .");
+            System.out.println("\n Tiene regencia doble. Por un lado, Neptuno y, por el otro, Plutón, el dios de las profundidades. Es el arquetipo del guía o del maestro; el nueve está vinculado con el amor a la humanidad, un tipo de sentimiento más despersonalizado.");
 
         } else if (vida == 10) {
 
