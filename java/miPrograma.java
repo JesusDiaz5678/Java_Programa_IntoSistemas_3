@@ -63,7 +63,26 @@ public class miPrograma {
         int exit = 0;
         Scanner in = new Scanner(System.in);
 
-        System.out.println(" \n \t \t \t \t BIENVENIDO AL SISTEMA Junity REALIZADO CON JAVA \n");
+        String banner = """
+
+
+                           8 8888 8 8888      88 b.             8  8 8888 8888888 8888888888 `8.`8888.      ,8'
+                           8 8888 8 8888      88 888o.          8  8 8888       8 8888        `8.`8888.    ,8'
+                           8 8888 8 8888      88 Y88888o.       8  8 8888       8 8888         `8.`8888.  ,8'
+                           8 8888 8 8888      88 .`Y888888o.    8  8 8888       8 8888          `8.`8888.,8'
+                           8 8888 8 8888      88 8o. `Y888888o. 8  8 8888       8 8888           `8.`88888'
+                           8 8888 8 8888      88 8`Y8o. `Y88888o8  8 8888       8 8888            `8. 8888
+                88.        8 8888 8 8888      88 8   `Y8o. `Y8888  8 8888       8 8888             `8 8888
+                `88.       8 888' ` 8888     ,8P 8      `Y8o. `Y8  8 8888       8 8888              8 8888
+                  `88o.    8 88'    8888   ,d8P  8         `Y8o.`  8 8888       8 8888              8 8888
+                    `Y888888 '       `Y88888P'   8            `Yo  8 8888       8 8888              8 8888
+
+
+
+                               """;
+
+        System.out.println(" \n \t \t \t \t BIENVENIDO AL SISTEMA " + banner + " \t \t \t \t REALIZADO CON JAVA \n");
+
         System.out.println(" \n Por favor, ingrese su nombre: \n");
 
         String name = in.nextLine();
@@ -91,14 +110,27 @@ public class miPrograma {
                 break;
         }
 
-        System.out.println("Elige una de las opciones del menu:");
-        System.out.println("");
+        String menu = """
 
-        System.out.println("1. Signo Zodiacal Segun tu cumpleaños.");
-        System.out.println("2. Tu edad si fueras perro.");
-        System.out.println("3. Dias Vividos.");
-        System.out.println("4. Numerologia.");
-        System.out.println("");
+                .-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-.
+                |                                                                       |
+                |                                                                       |
+                |          Digite por consola una de las opciones del menu              |
+                |                                                                       |
+                |          1. Signo Zodiacal Segun tu cumpleaños.                       |
+                !                                                                       !
+                :          2. Tu edad si fueras perro                                   :
+                :                                                                       :
+                .          3. Dias Vividos.                                             .
+                .                                                                       .
+                :          4. Numerologia.                                              :
+                :                                                                       :
+                |                                                                       |
+                `-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-----'
+
+                                """;
+
+        System.out.println(menu);
 
         int iopcion = 0;
 
