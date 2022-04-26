@@ -30,27 +30,27 @@ public class miPrograma {
 
         } else if (vida == 4) {
 
-            System.out.println("\n Con la regencia de Urano y de Saturno, el cuatro es el arquetipo del pater familae. Protector, proveedor y l\u00edder, este número representa el orden y la ley. Tiene que ver con la estabilidad, la seguridad y la responsabilidad. Anal\u00edtico y controlado.");
+            System.out.println("\n Con la regencia de Urano y de Saturno, el cuatro es el arquetipo del pater familae. Protector, proveedor y l\u00edder, este n\u00famero representa el orden y la ley. Tiene que ver con la estabilidad, la seguridad y la responsabilidad. Anal\u00edtico y controlado.");
 
         } else if (vida == 5) {
 
-            System.out.println("\n Mercurio rige a este número, que se caracteriza por la inteligencia, la curiosidad y la velocidad. Por la raya ubicada arriba de su graf\u00eda, se lo considera r\u00edgido. Sin embargo, la panza de abajo es señal de apertura. El cinco simboliza la libertad, la expansi\u00f3n, la originalidad y la energ\u00eda cambiante. Está vinculado a la diversidad y, por su relaci\u00f3n con el número tres, es muy comunicativo.");
+            System.out.println("\n Mercurio rige a este n\u00famero, que se caracteriza por la inteligencia, la curiosidad y la velocidad. Por la raya ubicada arriba de su graf\u00eda, se lo considera r\u00edgido. Sin embargo, la panza de abajo es se\u00f1al de apertura. El cinco simboliza la libertad, la expansi\u00f3n, la originalidad y la energ\u00eda cambiante. Est\u00e1 vinculado a la diversidad y, por su relaci\u00f3n con el n\u00famero tres, es muy comunicativo.");
 
         } else if (vida == 6) {
 
-            System.out.println("\n Con la regencia de Venus, el seis simboliza la idea de comunidad: el amor a la familia y la pertenencia al clan. Es un eterno buscador de armon\u00eda. El seis es diplomático y está siempre tratando de unir: ya sea el cielo y la tierra, la mente y el coraz\u00f3n. Es equilibrado y tiene gran afinidad con el arte, la música y la plástica.");
+            System.out.println("\n Con la regencia de Venus, el seis simboliza la idea de comunidad: el amor a la familia y la pertenencia al clan. Es un eterno buscador de armon\u00eda. El seis es diplom\u00e1tico y est\u00e1 siempre tratando de unir: ya sea el cielo y la tierra, la mente y el coraz\u00f3n. Es equilibrado y tiene gran afinidad con el arte, la m\u00fasica y la pl\u00e1stica.");
 
         } else if (vida == 7) {
 
-            System.out.println("\n Neptuno rige a este número cargado de sentido m\u00edstico. El siete oficia de médium. Tiene su percepci\u00f3n y su intuici\u00f3n hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religi\u00f3n, la meditaci\u00f3n, la espiritualidad, lo metaf\u00edsico.");
+            System.out.println("\n Neptuno rige a este n\u00famero cargado de sentido m\u00edstico. El siete oficia de médium. Tiene su percepci\u00f3n y su intuici\u00f3n hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religi\u00f3n, la meditaci\u00f3n, la espiritualidad, lo metaf\u00edsico.");
 
         } else if (vida == 8) {
 
-            System.out.println("\n El dios del tiempo, Saturno, es el planeta regente de este número. Representa el arquetipo del gobernante, el poder, los gobiernos instituciones del mundo, el orden del mundo, la ley y el orden. En su graf\u00eda, es como un tres, pero cerrado. El ocho supone el punto de uni\u00f3n entre lo espiritual y lo material.");
+            System.out.println("\n El dios del tiempo, Saturno, es el planeta regente de este n\u00famero. Representa el arquetipo del gobernante, el poder, los gobiernos instituciones del mundo, el orden del mundo, la ley y el orden. En su graf\u00eda, es como un tres, pero cerrado. El ocho supone el punto de uni\u00f3n entre lo espiritual y lo material.");
 
         } else if (vida == 9) {
 
-            System.out.println("\n Tiene regencia doble. Por un lado, Neptuno y, por el otro, Plut\u00f3n, el dios de las profundidades. Es el arquetipo del gu\u00eda o del maestro; el nueve está vinculado con el amor a la humanidad, un tipo de sentimiento más despersonalizado.");
+            System.out.println("\n Tiene regencia doble. Por un lado, Neptuno y, por el otro, Plut\u00f3n, el dios de las profundidades. Es el arquetipo del gu\u00eda o del maestro; el nueve est\u00e1 vinculado con el amor a la humanidad, un tipo de sentimiento m\u00e1s despersonalizado.");
 
         } else if (vida == 10) {
 
