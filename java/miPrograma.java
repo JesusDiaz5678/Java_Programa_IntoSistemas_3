@@ -16,45 +16,45 @@ public class miPrograma {
         if (vida == 1) {
 
             System.out.println(
-                    "\n Regido por el Sol, este número tiene que ver con la conciencia. Es un número masculino. Su grafía un palito hacia arriba es como una antena que capta y baja la información. Está vinculado a la creatividad y refiere, además, a los inicios, al punto de partida. Se lo suele vincular con aquel quien tiene la idea o dice qué hacer (la palabra). Si está mal aspectado, puede abusar de su autoridad.");
+                    "\n Regido por el Sol, este n\u00famero tiene que ver con la conciencia. Es un n\u00famero masculino. Su graf\u00eda un palito hacia arriba es como una antena que capta y baja la informaci\u00f3n. Est\u00e1 vinculado a la creatividad y refiere, adem\u00e1s, a los inicios, al punto de partida. Se lo suele vincular con aquel quien tiene la idea o dice qu\u00e9 hacer (la palabra). Si est\u00e1 mal aspectado, puede abusar de su autoridad.");
 
         } else if (vida == 2) {
 
             System.out.println(
-                    "\n Regido por la Luna, este número está relacionado con la nutrición, la empatía, la compasión y el servicio. Es un número femenino. \t Algunos numerólogos sostienen que los dos se caracterizan por su sensibilidad y que, en su afán de ayudar al otro, se dejan de lado a ellos mismos. Algunos dos pueden presentar dificultades para decir que no y para poner límites.");
+                    "\n Regido por la Luna, este n\u00famero est\u00e1 relacionado con la nutrici\u00f3n, la empat\u00eda, la compasi\u00f3n y el servicio. Es un n\u00famero femenino. \t Algunos numer\u00f3logos sostienen que los dos se caracterizan por su sensibilidad y que, en su af\u00e1n de ayudar al otro, se dejan de lado a ellos mismos. Algunos dos pueden presentar dificultades para decir que no y para poner l\u00edmites.");
 
         } else if (vida == 3) {
 
             System.out.println(
-                    "\n Bajo la regencia de Júpiter, el tres representa el juego. Es arquetipo del niño y tiene que ver con abundancia y con la gestación creativa: tiene habilidad para comunicar, pero también puede ser cantante o pintor. Tiene mucha influencia en la parte mental y en la social. Si está mal vibrado, puede ser disperso.");
+                    "\n Bajo la regencia de Ju00fapiter, el tres representa el juego. Es arquetipo del ni\u00f1o y tiene que ver con abundancia y con la gestaci\u00f3n creativa: tiene habilidad para comunicar, pero tambi\u00e9n puede ser cantante o pintor. Tiene mucha influencia en la parte mental y en la social. Si est\u00e1 mal vibrado, puede ser disperso.");
 
         } else if (vida == 4) {
 
-            System.out.println("\n .");
+            System.out.println("\n Con la regencia de Urano y de Saturno, el cuatro es el arquetipo del pater familae. Protector, proveedor y l\u00edder, este n\u00famero representa el orden y la ley. Tiene que ver con la estabilidad, la seguridad y la responsabilidad. Anal\u00edtico y controlado.");
 
         } else if (vida == 5) {
 
-            System.out.println("\n .");
+            System.out.println("\n Mercurio rige a este n\u00famero, que se caracteriza por la inteligencia, la curiosidad y la velocidad. Por la raya ubicada arriba de su graf\u00eda, se lo considera r\u00edgido. Sin embargo, la panza de abajo es se\u00f1al de apertura. El cinco simboliza la libertad, la expansi\u00f3n, la originalidad y la energ\u00eda cambiante. Est\u00e1 vinculado a la diversidad y, por su relaci\u00f3n con el n\u00famero tres, es muy comunicativo.");
 
         } else if (vida == 6) {
 
-            System.out.println("\n .");
+            System.out.println("\n Con la regencia de Venus, el seis simboliza la idea de comunidad: el amor a la familia y la pertenencia al clan. Es un eterno buscador de armon\u00eda. El seis es diplom\u00e1tico y est\u00e1 siempre tratando de unir: ya sea el cielo y la tierra, la mente y el coraz\u00f3n. Es equilibrado y tiene gran afinidad con el arte, la m\u00fasica y la pl\u00e1stica.");
 
         } else if (vida == 7) {
 
-            System.out.println("\n .");
+            System.out.println("\n Neptuno rige a este n\u00famero cargado de sentido m\u00edstico. El siete oficia de m\u00e9dium. Tiene su percepci\u00f3n y su intuici\u00f3n hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religi\u00f3n, la meditaci\u00f3n, la espiritualidad, lo metaf\u00edsico.");
 
         } else if (vida == 8) {
 
-            System.out.println("\n .");
+            System.out.println("\n El dios del tiempo, Saturno, es el planeta regente de este n\u00famero. Representa el arquetipo del gobernante, el poder, los gobiernos instituciones del mundo, el orden del mundo, la ley y el orden. En su graf\u00eda, es como un tres, pero cerrado. El ocho supone el punto de uni\u00f3n entre lo espiritual y lo material.");
 
         } else if (vida == 9) {
 
-            System.out.println("\n .");
+            System.out.println("\n Tiene regencia doble. Por un lado, Neptuno y, por el otro, Plut\u00f3n, el dios de las profundidades. Es el arquetipo del gu\u00eda o del maestro; el nueve est\u00e1 vinculado con el amor a la humanidad, un tipo de sentimiento m\u00e1s despersonalizado.");
 
         } else if (vida == 10) {
 
-            System.out.println("\n .");
+            System.out.println("\n El diez tiene la regencia de Plut\u00f3n y lo acompa\u00f1a ur\u00f3boros, la serpiente que se muerde la cola que representa de la naturaleza c\u00edclica del tiempo y el eterno retorno. Esto es, el tiempo y la continuidad de la vida.");
         }
     }
 
@@ -131,7 +131,7 @@ public class miPrograma {
                                 """;
 
         System.out.println(menu);
-
+      
         int iopcion = 0;
 
         try {
@@ -209,14 +209,14 @@ public class miPrograma {
 
                                 System.out.println("\n Tu signo es CAPRICORNIO:");
                                 System.out.println(
-                                        "\n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zodíaco más constante, sólido y apacible. También se caracteriza por ser prudente y práctico en todos los asuntos que le conciernen. Sus aspectos más negativos tienden hacia el pesimismo, la fijeza y la melancolía.");
+                                        "\n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zod\u00edaco m\u00e1s constante, s\u00f3lido y apacible. Tambi\u00e9n se caracteriza por ser prudente y pr\u00e1ctico en todos los asuntos que le conciernen. Sus aspectos m\u00e1s negativos tienden hacia el pesimismo, la fijeza y la melancol\u00eda.");
                                 System.out.println("\n Gracias por usar nuestro sistema. Feliz Dia.");
 
                             } else if (dia > 21 && dia < 32) {
 
                                 System.out.println("\n Tu signo es ACUARIO:");
                                 System.out.println(
-                                        "\n ACUARIO es un signo fijo y de aire, y sin duda, es el signo con mayor capacidad para la invención de toda la rueda zodiacal. Simpático, original y brillante, Acuario también es un signo muy humanitario, al mismo tiempo que independiente e intelectual.");
+                                        "\n ACUARIO es un signo fijo y de aire, y sin duda, es el signo con mayor capacidad para la invenci\u00f3n de toda la rueda zodiacal. Simp\u00e1tico, original y brillante, Acuario tambi\u00e9n es un signo muy humanitario, al mismo tiempo que independiente e intelectual.");
                                 System.out.println("\n Gracias por usar nuestro sistema. Feliz Dia.");
                             } else {
                                 System.out.println("\n Has digitado un valor invalido.");
@@ -284,7 +284,7 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es ARIES:");
 
                                 System.out.println(
-                                        " \n ARIES forma parte de los signos cardinales y al mismo tiempo es un signo de fuego; también es el primer signo del zodíaco, precisamente por eso, simboliza el inicio, la creación. Se caracteriza por ser una persona rebosante de energía y entusiasmo; avanzada y aventurera, adora la libertad, los retos y las nuevas ideas.");
+                                        " \n ARIES forma parte de los signos cardinales y al mismo tiempo es un signo de fuego; también es el primer signo del zod\u00edaco, precisamente por eso, simboliza el inicio, la creación. Se caracteriza por ser una persona rebosante de energ\u00eda y entusiasmo; avanzada y aventurera, adora la libertad, los retos y las nuevas ideas.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -311,7 +311,7 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es ARIES:");
 
                                 System.out.println(
-                                        " \n ARIES forma parte de los signos cardinales y al mismo tiempo es un signo de fuego; también es el primer signo del zodíaco, precisamente por eso, simboliza el inicio, la creación. Se caracteriza por ser una persona rebosante de energía y entusiasmo; avanzada y aventurera, adora la libertad, los retos y las nuevas ideas.");
+                                        " \n ARIES forma parte de los signos cardinales y al mismo tiempo es un signo de fuego; también es el primer signo del zod\u00edaco, precisamente por eso, simboliza el inicio, la creación. Se caracteriza por ser una persona rebosante de energía y entusiasmo; avanzada y aventurera, adora la libertad, los retos y las nuevas ideas.");
 
                             } else if (dia > 20 && dia < 31) {
 
@@ -386,7 +386,7 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es CANCER:");
 
                                 System.out.println(
-                                        " \n CANCER Los nacidos bajo el signo de cáncer son personas completamente emocionales, muy sentimentales, imaginativos, cariñosos, protectores y muy sensuales. A la vez, pueden ser tímidos y muy sensibles, pero excelentes amantes. Es un signo muy divertido, amigable y confiado.");
+                                        " \n CANCER Los nacidos bajo el signo de cáncer son personas completamente emocionales, muy sentimentales, imaginativos, cariñosos, protectores y muy sensuales. A la vez, pueden ser t\u00edmidos y muy sensibles, pero excelentes amantes. Es un signo muy divertido, amigable y confiado.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -413,14 +413,14 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es CANCER:");
 
                                 System.out.println(
-                                        " \n CANCER Los nacidos bajo el signo de cáncer son personas completamente emocionales, muy sentimentales, imaginativos, cariñosos, protectores y muy sensuales. A la vez, pueden ser tímidos y muy sensibles, pero excelentes amantes. Es un signo muy divertido, amigable y confiado.");
+                                        " \n CANCER Los nacidos bajo el signo de cáncer son personas completamente emocionales, muy sentimentales, imaginativos, cariñosos, protectores y muy sensuales. A la vez, pueden ser t\u00edmidos y muy sensibles, pero excelentes amantes. Es un signo muy divertido, amigable y confiado.");
 
                             } else if (dia > 22 && dia < 32) {
 
                                 System.out.println(" \n Tu signo es LEO:");
 
                                 System.out.println(
-                                        " \n LEO El signo de Leo es fijo y de fuego, también el signo más dominante del zodíaco. Creativo y abierto, tiene ambición, valor, fuerza, autonomía y total seguridad en sí mismo: sabe dónde quiere llegar y nada ni nadie podrá evitarlo.");
+                                        " \n LEO El signo de Leo es fijo y de fuego, también el signo más dominante del zod\u00edaco. Creativo y abierto, tiene ambición, valor, fuerza, autonom\u00eda y total seguridad en s\u00ed mismo: sabe dónde quiere llegar y nada ni nadie podrá evitarlo.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -447,14 +447,14 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es LEO:");
 
                                 System.out.println(
-                                        " \n LEO El signo de Leo es fijo y de fuego, también el signo más dominante del zodíaco. Creativo y abierto, tiene ambición, valor, fuerza, autonomía y total seguridad en sí mismo: sabe dónde quiere llegar y nada ni nadie podrá evitarlo.");
+                                        " \n LEO El signo de Leo es fijo y de fuego, también el signo más dominante del zod\u00edaco. Creativo y abierto, tiene ambición, valor, fuerza, autonom\u00eda y total seguridad en s\u00ed mismo: sabe dónde quiere llegar y nada ni nadie podrá evitarlo.");
 
                             } else if (dia > 22 && dia < 32) {
 
                                 System.out.println(" \n Tu signo es VIRGO:");
 
                                 System.out.println(
-                                        " \n VIRGO es un signo mutable y de tierra; representado por una virgen, es un signo caracterizado por su espíritu crítico, precisión, reserva, paciencia y convencionalismo. También es lógico, metódico y aplicado, le gusta aprender y es capaz de analizar las situaciones más complejas con una claridad pasmosa.");
+                                        " \n VIRGO es un signo mutable y de tierra; representado por una virgen, es un signo caracterizado por su esp\u00edritu cr\u00edtico, precisión, reserva, paciencia y convencionalismo. También es lógico, metódico y aplicado, le gusta aprender y es capaz de analizar las situaciones más complejas con una claridad pasmosa.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -481,7 +481,7 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es VIRGO:");
 
                                 System.out.println(
-                                        " \n VIRGO es un signo mutable y de tierra; representado por una virgen, es un signo caracterizado por su espíritu crítico, precisión, reserva, paciencia y convencionalismo. También es lógico, metódico y aplicado, le gusta aprender y es capaz de analizar las situaciones más complejas con una claridad pasmosa.");
+                                        " \n VIRGO es un signo mutable y de tierra; representado por una virgen, es un signo caracterizado por su esp\u00edritu cr\u00edtico, precisión, reserva, paciencia y convencionalismo. También es lógico, metódico y aplicado, le gusta aprender y es capaz de analizar las situaciones más complejas con una claridad pasmosa.");
 
                             } else if (dia > 23 && dia < 31) {
 
@@ -515,14 +515,14 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es LIBRA:");
 
                                 System.out.println(
-                                        " \n LIBRA es un signo cardinal y de aire, se encuentra además entre los signos más refinados del zodíaco; tiene elegancia, encanto, diplomacia y buen gusto, ama la belleza, es muy curioso por naturaleza y odia los conflictos. Sus puntos negativos a veces son la frivolidad y un carácter voluble.");
+                                        " \n LIBRA es un signo cardinal y de aire, se encuentra además entre los signos más refinados del zod\u00edaco; tiene elegancia, encanto, diplomacia y buen gusto, ama la belleza, es muy curioso por naturaleza y odia los conflictos. Sus puntos negativos a veces son la frivolidad y un carácter voluble.");
 
                             } else if (dia > 23 && dia < 32) {
 
                                 System.out.println(" \n Tu signo es ESCORPIO:");
 
                                 System.out.println(
-                                        " \n ESCORPIO es un signo fijo y de agua; su potencia y energía emocional son únicas en todo el zodíaco. Tiene mucha imaginación e intuición, además de una gran capacidad para el análisis, fuerza de voluntad y firmeza, aunque también es muy sensible y emocional consigo mismo y con el entorno.");
+                                        " \n ESCORPIO es un signo fijo y de agua; su potencia y energ\u00eda emocional son únicas en todo el zod\u00edaco. Tiene mucha imaginación e intuición, además de una gran capacidad para el análisis, fuerza de voluntad y firmeza, aunque también es muy sensible y emocional consigo mismo y con el entorno.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -549,14 +549,14 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es ESCORPIO:");
 
                                 System.out.println(
-                                        " \n ESCORPIO es un signo fijo y de agua; su potencia y energía emocional son únicas en todo el zodíaco. Tiene mucha imaginación e intuición, además de una gran capacidad para el análisis, fuerza de voluntad y firmeza, aunque también es muy sensible y emocional consigo mismo y con el entorno.");
+                                        " \n ESCORPIO es un signo fijo y de agua; su potencia y energ\u00eda emocional son únicas en todo el zod\u00edaco. Tiene mucha imaginación e intuición, además de una gran capacidad para el análisis, fuerza de voluntad y firmeza, aunque también es muy sensible y emocional consigo mismo y con el entorno.");
 
                             } else if (dia > 22 && dia < 31) {
 
                                 System.out.println(" \n Tu signo es SAGITARIO:");
 
                                 System.out.println(
-                                        " \n SAGITARIO es un signo zodiacal muy honesto, fiel en el amor pero también muy temperamental. Un Sagitario es para siempre hasta que se le traiciona. Optimistas, positivos, modestos, sinceros y simpáticos, los Sagitario (22 noviembre al 21 diciembre) suelen ser la alegría de la huerta del zodiaco.");
+                                        " \n SAGITARIO es un signo zodiacal muy honesto, fiel en el amor pero también muy temperamental. Un Sagitario es para siempre hasta que se le traiciona. Optimistas, positivos, modestos, sinceros y simpáticos, los Sagitario (22 noviembre al 21 diciembre) suelen ser la alegr\u00eda de la huerta del zodiaco.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -583,14 +583,14 @@ public class miPrograma {
                                 System.out.println(" \n Tu signo es SAGITARIO:");
 
                                 System.out.println(
-                                        " \n SAGITARIO es un signo zodiacal muy honesto, fiel en el amor pero también muy temperamental. Un Sagitario es para siempre hasta que se le traiciona. Optimistas, positivos, modestos, sinceros y simpáticos, los Sagitario (22 noviembre al 21 diciembre) suelen ser la alegría de la huerta del zodiaco.");
+                                        " \n SAGITARIO es un signo zodiacal muy honesto, fiel en el amor pero también muy temperamental. Un Sagitario es para siempre hasta que se le traiciona. Optimistas, positivos, modestos, sinceros y simpáticos, los Sagitario (22 noviembre al 21 diciembre) suelen ser la alegr\u00eda de la huerta del zodiaco.");
 
                             } else if (dia > 22 && dia < 32) {
 
                                 System.out.println(" \n Tu signo es CAPRICORNIO:");
 
                                 System.out.println(
-                                        " \n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zodíaco más constante, sólido y apacible. También se caracteriza por ser prudente y práctico en todos los asuntos que le conciernen. Sus aspectos más negativos tienden hacia el pesimismo, la fijeza y la melancolía.");
+                                        " \n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zod\u00edaco más constante, sólido y apacible. También se caracteriza por ser prudente y práctico en todos los asuntos que le conciernen. Sus aspectos más negativos tienden hacia el pesimismo, la fijeza y la melancol\u00eda.");
 
                             } else {
                                 System.out.println("\n Has digitado un valor invalido");
@@ -618,7 +618,7 @@ public class miPrograma {
 
                 System.out.println(" \n Haz ingresado: Tu edad si fueras Perro.");
 
-                System.out.println(" \n Por favor digite su edad. (en años)");
+                System.out.println(" \n Por favor digite su edad. (en a\u00f1os)");
                 System.out.println("");
 
                 int iedad = 0;
@@ -641,7 +641,7 @@ public class miPrograma {
                 System.out.println("");
                 System.out.println("Gracias por sus datos " + name + ". \n");
                 System.out.println(name + ", tu edad si fueras un perro serian: ");
-                System.out.println(" \n \t \t \t \t \t  ¯`·.¸¸.·´¯`·.¸¸. " + edadPerro + " años .¸¸.·`¯´·.¸¸.·`¯");
+                System.out.println(" \n \t \t \t \t \t  ¯`·.¸¸.·´¯`·.¸¸. " + edadPerro + " a\u00f1os .¸¸.·`¯´·.¸¸.·`¯");
 
             }
                 break;
@@ -750,7 +750,7 @@ public class miPrograma {
                 }
 
                 System.out.println("");
-                System.out.println(name + " Por favor ingresa el año de tu nacimiento:");
+                System.out.println(name + " Por favor ingresa el a\u00f1o de tu nacimiento:");
                 System.out.println("");
 
                 try {
@@ -808,7 +808,7 @@ public class miPrograma {
 
                 System.out.println("\n Muchas Gracias por tus Datos " + name + ".  \n");
                 System.out.println("Hasta la fecha han pasado: " + diasHastaFechaActual + " dias desde el dia 0, hace "
-                        + anioActual + " años.");
+                        + anioActual + " a\u00f1os.");
                 System.out.println("Antes de que nacieras, habian pasado " + diasHastaFechaNacimieto + " dias. \n");
                 System.out.println(
                         "Por consiguiente, despues de esta pletora de informacion, la cantidad de dias que haz vivido desde tu nacimiento son: \t "
@@ -877,7 +877,7 @@ public class miPrograma {
 
                     do {
                         System.out.println("");
-                        System.out.println(name + " Por favor ingresa el año de tu nacimiento:");
+                        System.out.println(name + " Por favor ingresa el a\u00f1o de tu nacimiento:");
                         System.out.println("");
 
                         try {
