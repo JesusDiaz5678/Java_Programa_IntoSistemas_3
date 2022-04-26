@@ -34,7 +34,7 @@ public class miPrograma {
 
         } else if (vida == 5) {
 
-            System.out.println("\n .");
+            System.out.println("\n Mercurio rige a este número, que se caracteriza por la inteligencia, la curiosidad y la velocidad. Por la raya ubicada arriba de su grafía, se lo considera rígido. Sin embargo, la panza de abajo es señal de apertura. El cinco simboliza la libertad, la expansión, la originalidad y la energía cambiante. Está vinculado a la diversidad y, por su relación con el número tres, es muy comunicativo.");
 
         } else if (vida == 6) {
 
