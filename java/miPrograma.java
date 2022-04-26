@@ -54,7 +54,7 @@ public class miPrograma {
 
         } else if (vida == 10) {
 
-            System.out.println("\n .");
+            System.out.println("\n El diez tiene la regencia de Plutón y lo acompaña uróboros, la serpiente que se muerde la cola que representa de la naturaleza cíclica del tiempo y el eterno retorno. Esto es, el tiempo y la continuidad de la vida.");
         }
     }
 
