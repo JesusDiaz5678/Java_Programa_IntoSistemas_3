@@ -42,7 +42,7 @@ public class miPrograma {
 
         } else if (vida == 7) {
 
-            System.out.println("\n Neptuno rige a este n\u00famero cargado de sentido m\u00edstico. El siete oficia de médium. Tiene su percepci\u00f3n y su intuici\u00f3n hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religi\u00f3n, la meditaci\u00f3n, la espiritualidad, lo metaf\u00edsico.");
+            System.out.println("\n Neptuno rige a este n\u00famero cargado de sentido m\u00edstico. El siete oficia de m\u00e9dium. Tiene su percepci\u00f3n y su intuici\u00f3n hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religi\u00f3n, la meditaci\u00f3n, la espiritualidad, lo metaf\u00edsico.");
 
         } else if (vida == 8) {
 
@@ -54,7 +54,7 @@ public class miPrograma {
 
         } else if (vida == 10) {
 
-            System.out.println("\n El diez tiene la regencia de Plut\u00f3n y lo acompaña ur\u00f3boros, la serpiente que se muerde la cola que representa de la naturaleza c\u00edclica del tiempo y el eterno retorno. Esto es, el tiempo y la continuidad de la vida.");
+            System.out.println("\n El diez tiene la regencia de Plut\u00f3n y lo acompa\u00f1a ur\u00f3boros, la serpiente que se muerde la cola que representa de la naturaleza c\u00edclica del tiempo y el eterno retorno. Esto es, el tiempo y la continuidad de la vida.");
         }
     }
 
@@ -177,14 +177,14 @@ public class miPrograma {
 
                                 System.out.println("\n Tu signo es CAPRICORNIO:");
                                 System.out.println(
-                                        "\n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zod\u00edaco más constante, sólido y apacible. También se caracteriza por ser prudente y práctico en todos los asuntos que le conciernen. Sus aspectos más negativos tienden hacia el pesimismo, la fijeza y la melancol\u00eda.");
+                                        "\n CAPRICORNIO es un signo cardinal y de tierra, y uno de los signos del zod\u00edaco m\u00e1s constante, s\u00f3lido y apacible. Tambi\u00e9n se caracteriza por ser prudente y pr\u00e1ctico en todos los asuntos que le conciernen. Sus aspectos m\u00e1s negativos tienden hacia el pesimismo, la fijeza y la melancol\u00eda.");
                                 System.out.println("\n Gracias por usar nuestro sistema. Feliz Dia.");
 
                             } else if (dia > 21 && dia < 32) {
 
                                 System.out.println("\n Tu signo es ACUARIO:");
                                 System.out.println(
-                                        "\n ACUARIO es un signo fijo y de aire, y sin duda, es el signo con mayor capacidad para la invención de toda la rueda zodiacal. Simpático, original y brillante, Acuario también es un signo muy humanitario, al mismo tiempo que independiente e intelectual.");
+                                        "\n ACUARIO es un signo fijo y de aire, y sin duda, es el signo con mayor capacidad para la invenci\u00f3n de toda la rueda zodiacal. Simp\u00e1tico, original y brillante, Acuario tambi\u00e9n es un signo muy humanitario, al mismo tiempo que independiente e intelectual.");
                                 System.out.println("\n Gracias por usar nuestro sistema. Feliz Dia.");
                             } else {
                                 System.out.println("\n Has digitado un valor invalido.");
