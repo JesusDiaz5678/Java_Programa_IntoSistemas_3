@@ -46,7 +46,7 @@ public class miPrograma {
 
         } else if (vida == 8) {
 
-            System.out.println("\n .");
+            System.out.println("\n El dios del tiempo, Saturno, es el planeta regente de este número. Representa el arquetipo del gobernante, el poder, los gobiernos instituciones del mundo, el orden del mundo, la ley y el orden. En su grafía, es como un tres, pero cerrado. El ocho supone el punto de unión entre lo espiritual y lo material.");
 
         } else if (vida == 9) {
 
