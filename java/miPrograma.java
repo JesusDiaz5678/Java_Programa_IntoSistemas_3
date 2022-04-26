@@ -38,7 +38,7 @@ public class miPrograma {
 
         } else if (vida == 6) {
 
-            System.out.println("\n .");
+            System.out.println("\n ​Con la regencia de Venus, el seis simboliza la idea de comunidad: el amor a la familia y la pertenencia al clan. Es un eterno buscador de armonía. El seis es diplomático y está siempre tratando de unir: ya sea el cielo y la tierra, la mente y el corazón. Es equilibrado y tiene gran afinidad con la música, el arte, la música y la plástica.");
 
         } else if (vida == 7) {
 
