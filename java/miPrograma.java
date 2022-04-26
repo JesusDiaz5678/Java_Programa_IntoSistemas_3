@@ -42,7 +42,7 @@ public class miPrograma {
 
         } else if (vida == 7) {
 
-            System.out.println("\n .");
+            System.out.println("\n Neptuno rige a este número cargado de sentido místico. El siete oficia de médium. Tiene su percepción y su intuición hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religión, la meditación, la espiritualidad, lo metafísico.");
 
         } else if (vida == 8) {
 
