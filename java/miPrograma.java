@@ -30,7 +30,7 @@ public class miPrograma {
 
         } else if (vida == 4) {
 
-            System.out.println("\n .");
+            System.out.println("\n Con la regencia de Urano y de Saturno, el cuatro es el arquetipo del pater familae. Protector, proveedor y líder, este número representa el orden y la ley. Tiene que ver con la estabilidad, la seguridad y la responsabilidad. Analítico y controlado.");
 
         } else if (vida == 5) {
 
