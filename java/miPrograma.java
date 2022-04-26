@@ -16,17 +16,17 @@ public class miPrograma {
         if (vida == 1) {
 
             System.out.println(
-                    "\n Regido por el Sol, este número tiene que ver con la conciencia. Es un número masculino. Su grafía un palito hacia arriba es como una antena que capta y baja la información. Está vinculado a la creatividad y refiere, además, a los inicios, al punto de partida. Se lo suele vincular con aquel quien tiene la idea o dice qué hacer (la palabra). Si está mal aspectado, puede abusar de su autoridad.");
+                    "\n Regido por el Sol, este n\u00famero tiene que ver con la conciencia. Es un n\u00famero masculino. Su graf\u00eda un palito hacia arriba es como una antena que capta y baja la informaci\u00f3n. Est\u00e1 vinculado a la creatividad y refiere, adem\u00e1s, a los inicios, al punto de partida. Se lo suele vincular con aquel quien tiene la idea o dice qu\u00e9 hacer (la palabra). Si est\u00e1 mal aspectado, puede abusar de su autoridad.");
 
         } else if (vida == 2) {
 
             System.out.println(
-                    "\n Regido por la Luna, este número está relacionado con la nutrición, la empatía, la compasión y el servicio. Es un número femenino. \t Algunos numerólogos sostienen que los dos se caracterizan por su sensibilidad y que, en su afán de ayudar al otro, se dejan de lado a ellos mismos. Algunos dos pueden presentar dificultades para decir que no y para poner límites.");
+                    "\n Regido por la Luna, este n\u00famero est\u00e1 relacionado con la nutrici\u00f3n, la empatía, la compasi\u00f3n y el servicio. Es un n\u00famero femenino. \t Algunos numer\u00f3logos sostienen que los dos se caracterizan por su sensibilidad y que, en su af\u00e1n de ayudar al otro, se dejan de lado a ellos mismos. Algunos dos pueden presentar dificultades para decir que no y para poner l\u00edmites.");
 
         } else if (vida == 3) {
 
             System.out.println(
-                    "\n Bajo la regencia de Júpiter, el tres representa el juego. Es arquetipo del niño y tiene que ver con abundancia y con la gestación creativa: tiene habilidad para comunicar, pero también puede ser cantante o pintor. Tiene mucha influencia en la parte mental y en la social. Si está mal vibrado, puede ser disperso.");
+                    "\n Bajo la regencia de Júpiter, el tres representa el juego. Es arquetipo del niño y tiene que ver con abundancia y con la gestaci\u00f3n creativa: tiene habilidad para comunicar, pero también puede ser cantante o pintor. Tiene mucha influencia en la parte mental y en la social. Si está mal vibrado, puede ser disperso.");
 
         } else if (vida == 4) {
 
@@ -34,27 +34,27 @@ public class miPrograma {
 
         } else if (vida == 5) {
 
-            System.out.println("\n Mercurio rige a este número, que se caracteriza por la inteligencia, la curiosidad y la velocidad. Por la raya ubicada arriba de su grafía, se lo considera rígido. Sin embargo, la panza de abajo es señal de apertura. El cinco simboliza la libertad, la expansión, la originalidad y la energía cambiante. Está vinculado a la diversidad y, por su relación con el número tres, es muy comunicativo.");
+            System.out.println("\n Mercurio rige a este número, que se caracteriza por la inteligencia, la curiosidad y la velocidad. Por la raya ubicada arriba de su grafía, se lo considera rígido. Sin embargo, la panza de abajo es señal de apertura. El cinco simboliza la libertad, la expansi\u00f3n, la originalidad y la energía cambiante. Está vinculado a la diversidad y, por su relaci\u00f3n con el número tres, es muy comunicativo.");
 
         } else if (vida == 6) {
 
-            System.out.println("\n ​Con la regencia de Venus, el seis simboliza la idea de comunidad: el amor a la familia y la pertenencia al clan. Es un eterno buscador de armonía. El seis es diplomático y está siempre tratando de unir: ya sea el cielo y la tierra, la mente y el corazón. Es equilibrado y tiene gran afinidad con la música, el arte, la música y la plástica.");
+            System.out.println("\n Con la regencia de Venus, el seis simboliza la idea de comunidad: el amor a la familia y la pertenencia al clan. Es un eterno buscador de armonía. El seis es diplomático y está siempre tratando de unir: ya sea el cielo y la tierra, la mente y el coraz\u00f3n. Es equilibrado y tiene gran afinidad con la música, el arte, la música y la plástica.");
 
         } else if (vida == 7) {
 
-            System.out.println("\n Neptuno rige a este número cargado de sentido místico. El siete oficia de médium. Tiene su percepción y su intuición hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religión, la meditación, la espiritualidad, lo metafísico.");
+            System.out.println("\n Neptuno rige a este número cargado de sentido místico. El siete oficia de médium. Tiene su percepci\u00f3n y su intuici\u00f3n hiperdesarrolladas y, por eso, tiene gran habilidad para captar todo lo que no se ve. Se inclina por todas aquellas actividades introspectivas, vinculadas con la religi\u00f3n, la meditaci\u00f3n, la espiritualidad, lo metafísico.");
 
         } else if (vida == 8) {
 
-            System.out.println("\n El dios del tiempo, Saturno, es el planeta regente de este número. Representa el arquetipo del gobernante, el poder, los gobiernos instituciones del mundo, el orden del mundo, la ley y el orden. En su grafía, es como un tres, pero cerrado. El ocho supone el punto de unión entre lo espiritual y lo material.");
+            System.out.println("\n El dios del tiempo, Saturno, es el planeta regente de este número. Representa el arquetipo del gobernante, el poder, los gobiernos instituciones del mundo, el orden del mundo, la ley y el orden. En su grafía, es como un tres, pero cerrado. El ocho supone el punto de uni\u00f3n entre lo espiritual y lo material.");
 
         } else if (vida == 9) {
 
-            System.out.println("\n Tiene regencia doble. Por un lado, Neptuno y, por el otro, Plutón, el dios de las profundidades. Es el arquetipo del guía o del maestro; el nueve está vinculado con el amor a la humanidad, un tipo de sentimiento más despersonalizado.");
+            System.out.println("\n Tiene regencia doble. Por un lado, Neptuno y, por el otro, Plut\u00f3n, el dios de las profundidades. Es el arquetipo del guía o del maestro; el nueve está vinculado con el amor a la humanidad, un tipo de sentimiento más despersonalizado.");
 
         } else if (vida == 10) {
 
-            System.out.println("\n El diez tiene la regencia de Plutón y lo acompaña uróboros, la serpiente que se muerde la cola que representa de la naturaleza cíclica del tiempo y el eterno retorno. Esto es, el tiempo y la continuidad de la vida.");
+            System.out.println("\n El diez tiene la regencia de Plut\u00f3n y lo acompaña ur\u00f3boros, la serpiente que se muerde la cola que representa de la naturaleza cíclica del tiempo y el eterno retorno. Esto es, el tiempo y la continuidad de la vida.");
         }
     }
 
@@ -94,7 +94,7 @@ public class miPrograma {
         System.out.println("Elige una de las opciones del menu:");
         System.out.println("");
 
-        System.out.println("1. Signo Zodiacal Segun tu cumpleaños.");
+        System.out.println("1. Signo Zodiacal Segun tu cumplea\u00f1os.");
         System.out.println("2. Tu edad si fueras perro.");
         System.out.println("3. Dias Vividos.");
         System.out.println("4. Numerologia.");
